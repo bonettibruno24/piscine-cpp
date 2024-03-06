@@ -31,8 +31,7 @@ int main() {
 
     // vidas=100;
      
-
-    cout <<"\nvidas: " << vidas << "\nletras: "<< letra << "\n" << decimal << "\n" << vivo << "\n"<< nome << "\n";
+    cout <<"\nvidas: " << vidas << "\nletra: "<< letra << "\nDinheiro: " << decimal <<  "\nNome: "<< nome ;
 
     return 0;
 }
