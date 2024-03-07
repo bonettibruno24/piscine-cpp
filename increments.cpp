@@ -17,5 +17,6 @@ int main(){
     cout << -num << "\n\n";
     // num-=10; //subtraiu 10 da var num
     num =-num;
+
     cout << num << "\n\n";
 }
