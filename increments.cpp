@@ -10,4 +10,12 @@ int main(){
     n2=10;
 
     cout << ++n1 << "\n\n";
+
+    // inversão de valores de variaveis 
+   int num = 10;
+
+    cout << -num << "\n\n";
+    // num-=10; //subtraiu 10 da var num
+    num =-num;
+    cout << num << "\n\n";
 }
