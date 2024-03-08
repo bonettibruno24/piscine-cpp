@@ -4,13 +4,14 @@ int main(){
     int num1=10;
     int num2=50;
     int sol=1;
-    char opc='s';
     
-  if (sol){
-    cout << "Eu vou para a escola!";
+  if (sol == 1){
+    cout << "Eu vou para";
   }else{
-    cout << "Vou fazer uma viagem";
+    cout << "Resultado FALSO";
   }
 
+  
 return 0;
+
 }
