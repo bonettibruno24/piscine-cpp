@@ -30,7 +30,7 @@ int main(){
         cout << "Valor rejeitado\n";
     }
 
-    if ((num >= 3 && num <=6)  || (num >= 10 && num <=14) || (num >= 16 && num <=19)){
+    if ((num > 2 && num <7)  || (num > 9 && num < 15) || (num > 17 && num < 20)){
        cout << "Valor aceito\n";
     }else{
         cout << "Valor rejeitado\n";
