@@ -35,7 +35,7 @@ int main(){
     }else{
         cout << "Valor rejeitado\n";
     }
-    
+
     // NEGAÇÃO
     if (!num)
     {
