@@ -43,7 +43,7 @@ int main()
         cout << "Valor selecionado invalido\n";
     }
 
-    //switch aninhado
+    //SWITCH ANINHADOS
 
     cout << "Seleciione um veiculo\n";
     cout << "[1]=Carro, [2]=Moto, [3]=Aviao, [4]=Helcoptero\n";
@@ -81,6 +81,5 @@ int main()
     default:
         cout << "Veiculo selecionado invalido\n";
     }
-
     return 0;
 }
