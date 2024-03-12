@@ -6,20 +6,20 @@ using namespace std;
 int n1,n2;  //variaveis globais
 
 
-// int main(){
+int main(){
 
-//     int vidas=9, tiros=500, live=100;
-//     cout << pi << "\n\n";
-//     canal;
+    int vidas=9, tiros=500, live=100;
+    cout << pi << "\n\n";
+    canal;
 
-//     return 0;
+    return 0;
 
-// }
+}
 
 int main(){
 
     int n3, n4;  // variaveis locais
-    int res1, res2 ;
+    int res1, res2;
 
     n1=11;
     n2=3;
