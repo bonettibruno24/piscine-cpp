@@ -22,11 +22,14 @@ int main()
                 break;
             }
         }
+
         cout << "\n Rotina Finalizada\n";
 
 
 //UTILIZAÇÃO COMANDO DE LOOP DO WHILE;
+
     int cont;
+    
     cont = 20;
 
     do{
