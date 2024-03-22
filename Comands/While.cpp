@@ -10,6 +10,7 @@ int main()
     while(n<10){
         cout << n << "\n";
         n++;
+
     }
     cout << "\n Rotina Finalizada\n";
 
@@ -37,5 +38,6 @@ int main()
         cont++;
     } while (cont < 25);
     cout << "\n Rotina Finalizada\n";
+    
     return 0;
 }

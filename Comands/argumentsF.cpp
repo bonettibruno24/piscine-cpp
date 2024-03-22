@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
     if (argc > 1) {
         if (!strcmp(argv[1], "carro")) {
             cout << "Vai de carro \n\n";
-        } else if (!strcmp(argv[1], "moto")) {
+        } else if (!strcmp(argv[1], "moto")) {  // verifica se o primeiro argumento passado para o programa é igual à string "moto". Se for, imprime "Vai de moto"
             cout << "Vai de moto \n\n";
         } else {
             cout << "Vou de ape mesmo \n\n";
@@ -17,6 +17,6 @@ int main(int argc, char *argv[]) {
         cout << "Nenhum argumento passado!\n";
     }
     system("pause");
-    
+
     return 0;
 }

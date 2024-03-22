@@ -8,10 +8,9 @@ int soma2(int n1, int n2);
 void tr(string tra[4]);
 
 int main() {
-    // Chamando a função soma() E CHAMANDO ELA 10 Vezes
-    // for(int i=0; i<10; i++){
-    //     soma();
-    // }
+     /*for(int i=0; i<10; i++){   //Chamando a função soma() E CHAMANDO ELA 10 Vezes
+         soma();
+     } */
 
     int res;
     string transp [4]= {"Carro","Moto","Barco","Aviao"};
@@ -36,10 +35,9 @@ void soma(int n1, int n2){
 int soma2(int n1, int n2){
     return n1+n2;
 }
-void tr(string tra[4]){
-    for (int i=0; i<4 ; i++)
-    {
-        cout << tra[i] << "\n";
-    }
-    
+    void tr(string tra[4]){   //ponteiro -> no array
+        for (int i=0; i<1 ; i++)
+        {
+            cout << tra[2] << "\n";
+        }   
 }
